@@ -7,7 +7,7 @@ Everything worked by the end of the project, but it was quite a journey. So this
 
 These instructions should work equally well on a Raspberry Pi or x64 hardware. Be patient if you decide to run it on a Raspberry Pi. Rendering the PDF to a PNG can sometimes take around 60 seconds, and it will consume all of the CPU and memory on the Pi while converting the PDF and converting it in Visionect's software for the eInk display. So while it is feasible, I don't plan on running it on a Pi again. 
 
-I am running the Visionect software and the Nginx web server on the same virtual machine for the instructions below. It is a Debian 11 install, but I am sure that Ubuntu would also work. After installation, you can trim the virtual machine down to one CPU core and 800MB of memory. That virtual machine configuration will leave you with enough headroom for updates and other activities in the background while a new web page rendering occurs.  
+I am running the Visionect software and the Nginx web server on the same virtual machine for the instructions below. It is a minimal Debian 11 install, but I am sure that Ubuntu would also work.  The raw VM disk is 10GB and uses the default layout with 1GB of swap.  All stable and running, you will find that you have 50% of the disk free and 50% of the swap available. After installation, you can trim the virtual machine down to one CPU core and 800MB of memory. That virtual machine configuration will leave you with enough headroom for updates and other activities in the background while a new web page rendering occurs.  
 
 ***
 
