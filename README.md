@@ -1,5 +1,5 @@
 # New York Times to PNG: nyt2png
-## An auto-refreshing New York Times front page on a 32" eInk display. 
+## Auto-refreshing New York Times front page on a 32" eInk display. 
 
 ![IMG_0988](https://user-images.githubusercontent.com/515629/156884064-3f54a3ef-858b-414c-8180-81b57675f18c.jpg)
 
