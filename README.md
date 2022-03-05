@@ -5,7 +5,7 @@ This project was written out of a fantastic amount of lust for the New York Time
 
 Everything worked by the end of the project, but it was quite a journey. So this is the abridged solution after hours of frustration. I currently have this running in a virtual machine on a server on my home network. I previously had it running on a Raspberry Pi 4 until the SD card died, and I had to remember how to install everything. 
 
-Be patient if you decide to run it on a Raspberry Pi. Rendering the PDF to a PNG can sometimes take around 60 seconds, and it will consume all of the CPU and memory on the Pi while converting the PDF and converting it in Visionect's software for the eInk display. So while it is feasible, I don't plan on running it on a Pi again. 
+These instructions should work equally well on a Raspberry Pi or x64 hardware. Be patient if you decide to run it on a Raspberry Pi. Rendering the PDF to a PNG can sometimes take around 60 seconds, and it will consume all of the CPU and memory on the Pi while converting the PDF and converting it in Visionect's software for the eInk display. So while it is feasible, I don't plan on running it on a Pi again. 
 
 I am running the Visionect software and the Nginx web server on the same virtual machine for the instructions below. It is a Debian 11 install, but I am sure that Ubuntu would also work. After installation, you can trim the virtual machine down to one CPU core and 800MB of memory. That virtual machine configuration will leave you with enough headroom for updates and other activities in the background while a new web page rendering occurs.  
 
