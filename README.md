@@ -69,12 +69,11 @@ server_tcp_set YOUR_SERVER_ADDRESS 11113
 flash_save
 reboot
 ```
-The screen should connect to the server and you will see it register itself in the dashboard.
+The screen should beep, reboot, and connect to your server.  You will see it register itself in the Visionect web dashboard.
 
 ***
 
 ## Configure the Web server for the New York Times page
-We need to get the web server up and running for the New York Times page.  
 
 First install the tools
 ```
