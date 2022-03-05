@@ -56,7 +56,7 @@ Under OSX you can check what the USB serial device is by
 ```
 ls -la /dev/tty.*
 ```
-and look for something in the form of tty.usbserial-AU02K26M
+and look for something in the form of tty.usbserial-AU02K26M.  
 Using minicom, configure the serial port and baud rate speed, which is 115200
 ```
 minicom -s 
