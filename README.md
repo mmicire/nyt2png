@@ -150,7 +150,7 @@ and watch for errors and access.
 
 ## Final configuration
 
-Finally, go into the Visionect configuration software at http://YOUR_SERVER_ADDRESS:8081 and in the display setting you should change the URL for the display to http://YOUR_SERVER_ADDRESS.  You do not need to set a refresh for the page in the control panel; the page has an auto-refresh configured itself and it has worked reliably for me. 
+Finally, go into the Visionect configuration software at http://YOUR_SERVER_ADDRESS:8081 and in the display setting you should change the URL for the display to http://YOUR_SERVER_ADDRESS.  You do not need to set a refresh for the page in the control panel; the page has a six hour auto-refresh configured in the html and it has worked reliably for me. 
 
 ***
 
