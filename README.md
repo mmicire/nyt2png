@@ -14,7 +14,7 @@ I am running the Visionect software and the Nginx web server on the same virtual
 Original article: https://alexanderklopping.medium.com/an-updated-daily-front-page-of-the-new-york-times-as-artwork-on-your-wall-3b28c3261478  
 Which was based on: https://onezero.medium.com/the-morning-paper-revisited-35b407822494  
 Device: https://www.visionect.com/product/place-and-play-32/  
-Visionconnect documentation: https://docs.visionect.com/VisionectSoftwareSuite/Installation.html#embedded-boards     
+Visionconnect documentation: https://docs.visionect.com/VisionectSoftwareSuite/Installation.html     
 Original PDF to PNG php page: https://gist.github.com/alexandernl/8090a79a7af4197c5f5571e8cc8c05b8
 
 ***
