@@ -54,8 +54,8 @@ Using minicom, configure the serial port and baud rate speed, which is 115200
 ```
 minicom -s 
 ```
-Hit enter a few times and you should see a > prompt. 
-To stop the boot looping and configure the basics
+After configuring the settings and entering minicom's terminal, hit enter a few times and you should see a > prompt. 
+To stop the boot looping and configure the basics do the following.
 ```
 cs 0
 wifi_ssid_set SSID
