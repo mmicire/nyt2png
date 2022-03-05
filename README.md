@@ -142,7 +142,7 @@ reboot
 ***
 
 ## Test the server
-Upon reboot, you should be able to hit http://YOUR_SERVER_ADDRESS in your laptop browser and after fifeteen to thirty seconds you should see a stretched out version of the New York Times web page in your browser. If it doesn't show up, you can do a
+Upon reboot, you should be able to hit http://YOUR_SERVER_ADDRESS in your laptop browser and after fifeteen to thirty seconds you should see a stretched out version of the New York Times web page in your browser.  The image may look stretched because it is formatted to stretch to the proportions of the eInk display automatically.  Don't worry as long as something shows up.  If it doesn't show up, on the server you can run
 ```
 tail -f /var/log/nginx/* 
 ```
