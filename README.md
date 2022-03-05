@@ -74,7 +74,7 @@ The screen should connect to the server and you will see it register itself in t
 ***
 
 ## Configure the Web server for the New York Times page
-We need to get the web server up and running for the NY Times page.  
+We need to get the web server up and running for the New York Times page.  
 
 First install the tools
 ```
