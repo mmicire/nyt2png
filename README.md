@@ -56,13 +56,11 @@ Under OSX you can check what the USB serial device is by
 ```
 ls -la /dev/tty.*
 ```
-and look for something in the form of tty.usbserial-AU02K26M.  
-Using minicom, configure the serial port and baud rate speed, which is 115200
+and look for something in the form of tty.usbserial-AU02K26M.  Using minicom, configure the serial port and baud rate speed, which is 115200.
 ```
 minicom -s 
 ```
-After configuring the settings and entering minicom's terminal, hit enter a few times and you should see a > prompt. 
-To stop the boot looping and configure the basics do the following.
+After configuring the settings and entering minicom's terminal, hit enter a few times and you should see a > prompt.  To stop the boot looping and configure the basics do the following.
 ```
 cs 0
 wifi_ssid_set SSID
