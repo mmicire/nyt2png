@@ -46,7 +46,7 @@ docker-compose up -d
 ```
 On your laptop, open your browser to http://YOUR_SERVER_ADDRESS:8081
 
-See notes below if you are having problems connecting to the visionect server.
+See notes below if you are having problems connecting to the Visionect server.
 
 ***
 
@@ -69,7 +69,7 @@ server_tcp_set YOUR_SERVER_ADDRESS 11113
 flash_save
 reboot
 ```
-The screen should connect to the visionect server and you will see it register itself in the dashboard.
+The screen should connect to the server and you will see it register itself in the dashboard.
 
 ***
 
