@@ -142,7 +142,7 @@ reboot
 ***
 
 ## Test the server
-Upon reboot, you should be able to hit THE_SERVER_ADDRESS in your laptop browser and after fifeteen to thirty seconds you should see a stretched out version of the New York Times web page in your browser. If it doesn't show up, you can do a
+Upon reboot, you should be able to hit http://YOUR_SERVER_ADDRESS in your laptop browser and after fifeteen to thirty seconds you should see a stretched out version of the New York Times web page in your browser. If it doesn't show up, you can do a
 ```
 tail -f /var/log/nginx/* 
 ```
