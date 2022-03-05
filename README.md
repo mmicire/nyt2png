@@ -10,7 +10,7 @@ I agreed with Alexander's sentiment on not wanting to spend a lot of time on the
 
 Everything worked by the end of the project, but it was quite a journey. So this is the abridged solution after hours of frustration. I currently have this running in a virtual machine on a server on my home network. I previously had it running on a Raspberry Pi 4 until the SD card died, and I had to remember how to install everything. 
 
-These instructions should work equally well on a Raspberry Pi or x64 hardware. However, be patient if you decide to run it on a Raspberry Pi. Rendering the PDF to a PNG can sometimes take around 60 seconds, and it will consume all of the CPU and memory on the Pi while creating the PNG in memory and converting it in Visionect's software for the eInk display. So while it is feasible, I don't plan on running it on a Pi again. 
+These instructions should work equally well on a Raspberry Pi or x86-64 hardware. However, be patient if you decide to run it on a Raspberry Pi. Rendering the PDF to a PNG can sometimes take around 60 seconds, and it will consume all of the CPU and memory on the Pi while creating the PNG in memory and converting it in Visionect's software for the eInk display. So while it is feasible, I don't plan on running it on a Pi again. 
 
 I am running the Visionect software and the Nginx web server on the same virtual machine for the instructions below. It is a minimal Debian 11 install, but I am sure that Ubuntu would also work. The raw VM disk is 10GB and uses the default layout with 1GB of swap. When the system is installed, booted, and idling, you will find 50% of the disk free and 50% of the swap available. After installation, you can trim the virtual machine down to one CPU core and 800MB of memory. That virtual machine configuration will leave you with enough headroom for updates and other activities in the background while a new web page rendering occurs.  
 
@@ -39,7 +39,7 @@ apt-get -y install docker-ce docker-ce-cli containerd.io wget docker-compose
 ```
 Copy the docker compose part of
 https://hub.docker.com/r/visionect/visionect-server-v3-armhf/ for Raspberry Pi or
-https://hub.docker.com/r/visionect/visionect-server-v3/ for x64 
+https://hub.docker.com/r/visionect/visionect-server-v3/ for x86-64 
 to docker-compose.yml.  In the same directory as your docker-compose.yml file type
 ```
 docker-compose up -d
