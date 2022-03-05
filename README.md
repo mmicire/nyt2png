@@ -72,10 +72,13 @@ The screen should connect to the visionect server and you will see it register i
 We need to get the web server up and running for the NY Times page.  
 
 First install the tools
-```git clone <this repo>
-apt -y install nginx imagick php-fpm
+```
+apt -y install nginx imagick php-fpm git
+cd ~
+git clone https://github.com/mmicire/nyt2png.git
 mkdir /var/www/html/
 chmod 766 /var/www/html/nyt2png
+cp ./nyt2png/index.php /var/www/html/
 ```
 
 Edit /etc/nginx/sites-available/default to the following
@@ -103,7 +106,7 @@ Then check the config
 ```
 nginx -t
 ```
-Seeing no problems, reload nginx
+If you see no errors, reload nginx
 ```
 service nginx reload
 ```
@@ -124,7 +127,7 @@ to
 <policy domain="module" rights="read|write" pattern="{PS,PDF,XPS}" />
 ```
 
-Reboot the machine since I don't know how to make the policy.xml changes take effect otherwise. 
+Reboot the machine (since I don't know how to make the policy.xml changes take effect otherwise). 
 ```
 reboot
 ```
