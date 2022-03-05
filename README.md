@@ -1,5 +1,5 @@
 # New York Times to PNG: nyt2png
-## Display an auto-refreshing version of the New York Times front page on a 32" eInk display. 
+## Display an auto-refreshing New York Times front page on a 32" eInk display. 
 
 This project was written out of a fantastic amount of lust for the New York Times projects by [Max Braun](https://onezero.medium.com/the-morning-paper-revisited-35b407822494) and later by [Alexander Klöpping](https://alexanderklopping.medium.com/an-updated-daily-front-page-of-the-new-york-times-as-artwork-on-your-wall-3b28c3261478). Their motivations for a minimalist but informative display resonated with me completely. Both articles were striking existence proofs but left a lot to be desired regarding technical detail on software. Max was held under NDA for parts of his software implementation, and Alexander admits that he had a friend do the script. As a result, there was little information about tying all of these software bits together.   I agreed with Alexander's sentiment that I didn't want to spend a lot of time on the hardware and opted to pick up one of the [commercially available Visionect 32" displays](https://www.visionect.com/product/place-and-play-32/).  
 
