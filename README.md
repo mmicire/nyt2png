@@ -73,7 +73,7 @@ The screen should beep, reboot, and connect to your server.  You will see it reg
 
 ***
 
-## Configure the Web server for the New York Times page
+## Configure the web server for the New York Times page
 
 First install the tools
 ```
